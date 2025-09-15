@@ -13,11 +13,6 @@ from gtts import gTTS
 from pydub import AudioSegment
 
 # ------------------------
-# FFmpeg setup for Windows
-# ------------------------
-
-
-# ------------------------
 # OpenAI API key
 # ------------------------
 openai.api_key = "YOUR_OPENAI_KEY_HERE"  # 🔑 Replace with your key
