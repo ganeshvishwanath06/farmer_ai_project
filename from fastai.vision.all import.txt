@@ -1,0 +1,6 @@
+from fastai.vision.all import *
+path = untar_data(URLs.PLANET_SAMPLE)
+dls = ImageDataLoaders.from_folder(path, valid='val')
+learn = cnn_learner(dls, resnet34, metrics=accuracy)
+learn.fine_tune(3)
+learn.export('plant_disease_model.pkl')
