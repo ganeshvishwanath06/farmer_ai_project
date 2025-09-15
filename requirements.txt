@@ -6,3 +6,4 @@ Pillow==10.4.0
 gtts==2.5.4
 deep-translator==1.11.4
 SpeechRecognition==3.10.1
+aifc
