@@ -5,8 +5,6 @@ torchvision==0.23.0
 Pillow==10.4.0
 gtts==2.5.4
 deep-translator==1.11.4
-SpeechRecognition==3.10.1
 pydub
 requests
-python-aifc
 rich==13.9.4
