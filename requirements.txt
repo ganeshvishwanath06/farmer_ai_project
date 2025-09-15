@@ -4,3 +4,4 @@ torchvision
 gTTS
 Pillow
 openai
+speech_recognition
