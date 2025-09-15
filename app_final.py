@@ -15,19 +15,7 @@ from pydub import AudioSegment
 # ------------------------
 # FFmpeg setup for Windows
 # ------------------------
-ffmpeg_bin = r"C:\Users\aman2\OneDrive\Desktop\ffmpeg\ffmpeg-8.0-essentials_build\bin"
-ffmpeg_path = os.path.join(ffmpeg_bin, "ffmpeg.exe")
-ffprobe_path = os.path.join(ffmpeg_bin, "ffprobe.exe")
 
-if not os.path.isfile(ffmpeg_path) or not os.path.isfile(ffprobe_path):
-    raise FileNotFoundError(f"FFmpeg or FFprobe not found:\n{ffmpeg_path}\n{ffprobe_path}")
-
-os.environ["FFMPEG_BINARY"] = ffmpeg_path
-os.environ["FFPROBE_BINARY"] = ffprobe_path
-
-AudioSegment.converter = ffmpeg_path
-AudioSegment.ffmpeg = ffmpeg_path
-AudioSegment.ffprobe = ffprobe_path
 
 # ------------------------
 # OpenAI API key
