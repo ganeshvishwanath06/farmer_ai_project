@@ -9,3 +9,4 @@ SpeechRecognition==3.10.1
 pydub
 requests
 aifc
+rich==13.9.4
