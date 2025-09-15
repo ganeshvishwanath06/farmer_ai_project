@@ -1,7 +1,8 @@
 streamlit
 torch
 torchvision
-gTTS
 Pillow
 openai
+gtts
+deep-translator
 speech_recognition
