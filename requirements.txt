@@ -8,5 +8,5 @@ deep-translator==1.11.4
 SpeechRecognition==3.10.1
 pydub
 requests
-aifc
+python-aifc
 rich==13.9.4
